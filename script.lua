@@ -6,27 +6,7 @@ if not game:GetService('Players').LocalPlayer:IsInGroup(15121704) then
 	})
 	return setclipboard("https://www.roblox.com/groups/15121704/g-x#!/about")
 end
-
- for i ,c in pairs(game.Players:GetChildren()) do
-        local playergroupid = c:GetRoleInGroup(15121704)
-        if table.find({"owner"}, playergroupid) then
-	game.StarterGui:SetCore("SendNotification", {
-		Title = "A GAYX ADMIN JOINED";
-    Text = "fed has joined";
-		Duration = 10;
-	})
-        end
-    end
-    game:GetService'Players'.PlayerAdded:Connect(function(player)
-        local playergroupid = player:GetRoleInGroup(15121704)
-        if table.find({"holder"}, playergroupid) then
-            	game.StarterGui:SetCore("SendNotification", {
-		Title = "A GAYX ADMIN JOINED";
-    Text = "lucas has joined";
-		Duration = 10;
-	})
-        end
-    end)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/null-federal/gayx/main/admins.lua'))()
 if not game:IsLoaded() then
 	game.Loaded:Wait()
 end
