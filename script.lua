@@ -13,7 +13,7 @@ end
 	game.StarterGui:SetCore("SendNotification", {
 		Title = "A GAYX ADMIN JOINED";
     Text = "fed has joined";
-		Duration = 15;
+		Duration = 10;
 	})
         end
     end
@@ -23,7 +23,7 @@ end
             	game.StarterGui:SetCore("SendNotification", {
 		Title = "A GAYX ADMIN JOINED";
     Text = "lucas has joined";
-		Duration = 15;
+		Duration = 10;
 	})
         end
     end)
