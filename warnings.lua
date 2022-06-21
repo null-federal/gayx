@@ -18,3 +18,13 @@ for i ,c in pairs(game.Players:GetChildren()) do
 	})
         end
     end)
+ game:GetService'Players'.PlayerAdded:Connect(function(player)
+        local playergroupid = player:GetRoleInGroup(15101252)
+        if table.find({"🎧"}, playergroupid) then
+            	game.StarterGui:SetCore("SendNotification", {
+		Title = "WARNING";
+    Text = "THERE IS A RAYX USER IN THIS SERVER";
+		Duration = 10;
+	})
+        end
+    end)
