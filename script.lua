@@ -6,7 +6,7 @@ if not game:GetService('Players').LocalPlayer:IsInGroup(15121704) then
 	})
 	return setclipboard("https://www.roblox.com/groups/15121704/g-x#!/about")
 end
-loadstring(game:HttpGet('https://raw.githubusercontent.com/null-federal/gayx/main/warnings.lua'))()
+
 if not game:IsLoaded() then
 	game.Loaded:Wait()
 end
