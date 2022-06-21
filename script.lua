@@ -1644,7 +1644,7 @@ GodArmor.MouseButton1Click:Connect(function()
     Text = "copied to clipboard";
 		Duration = 5;
 	})
-	return setclipboard("https://discord.gg/h7y9YrwCQs")
+	return setclipboard("https://discord.me/bytecode")
 end)
 Headless.MouseButton1Click:Connect(function()
     player.Character.Head:BreakJoints()
