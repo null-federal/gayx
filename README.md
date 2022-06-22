@@ -12,3 +12,5 @@ This script was created to be an alternative to other scripts that have admin/pa
 - [ ] Aimlock Rewrite
 - [x] Fix Anti-Stomp
 - [x] Fix NoRecoil
+
+###PLEASE DO NOT RENAME OR SELL THIS
